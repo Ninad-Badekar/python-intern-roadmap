@@ -2,7 +2,25 @@
 
 A structured learning path for Python interns — from fundamentals to web APIs and data science.
 
-Use this repo as your **single reference** while you learn. Work through each phase in order, check off topics as you go, and build the suggested projects to put skills into practice.
+> **Track progress on the Project board** (like [DE Training Program](https://github.com/users/vikas-yadav-neo/projects/1)):
+> **[All tasks → Issues](https://github.com/Ninad-Badekar/python-intern-roadmap/issues?q=is%3Aissue+label%3Aroadmap)** · **[Setup project board →](./docs/GITHUB-PROJECT.md)**
+
+Use this repo as your **single reference** while you learn. Work through each module in order on the GitHub Project board, check off topics in each issue, and build the suggested projects to put skills into practice.
+
+---
+
+## Modules & tasks (Project board)
+
+| Module | Topics | Issues |
+|--------|--------|--------|
+| **0. Setup & Git** | Python install, venv, Git, GitHub | [#1](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/1) |
+| **1. Python Basics** | Syntax, functions, OOP, CLI project | [#2](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/2)–[#4](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/4) |
+| **2. Flask** | HTTP, Jinja2, forms, SQLite project | [#5](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/5)–[#7](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/7) |
+| **3. FastAPI** | REST, Pydantic, CRUD API project | [#8](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/8)–[#10](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/10) |
+| **4. Data Science** | NumPy, pandas, viz, sklearn, EDA | [#11](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/11)–[#13](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/13) |
+| **5. Capstone Projects** | Full-stack, data API, ML, dashboard | [#14](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/14)–[#17](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/17) |
+
+**Mentors:** Run `bash scripts/setup-github-project.sh` once to create the kanban board — see [GitHub Project setup](./docs/GITHUB-PROJECT.md).
 
 ---
 
