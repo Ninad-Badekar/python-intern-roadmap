@@ -3,7 +3,7 @@
 A structured learning path for Python interns — from fundamentals to web APIs and data science.
 
 > **Track progress on the Project board** (like [DE Training Program](https://github.com/users/vikas-yadav-neo/projects/1)):
-> **[All tasks → Issues](https://github.com/Ninad-Badekar/python-intern-roadmap/issues?q=is%3Aissue+label%3Aroadmap)** · **[Setup project board →](./docs/GITHUB-PROJECT.md)**
+> **[Python Intern Training Program →](https://github.com/users/Ninad-Badekar/projects/4)** · **[All tasks → Issues](https://github.com/Ninad-Badekar/python-intern-roadmap/issues?q=is%3Aissue+label%3Aroadmap)**
 
 Use this repo as your **single reference** while you learn. Work through each module in order on the GitHub Project board, check off topics in each issue, and build the suggested projects to put skills into practice.
 
@@ -11,16 +11,20 @@ Use this repo as your **single reference** while you learn. Work through each mo
 
 ## Modules & tasks (Project board)
 
-| Module | Topics | Issues |
-|--------|--------|--------|
-| **0. Setup & Git** | Python install, venv, Git, GitHub | [#1](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/1) |
-| **1. Python Basics** | Syntax, functions, OOP, CLI project | [#2](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/2)–[#4](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/4) |
-| **2. Flask** | HTTP, Jinja2, forms, SQLite project | [#5](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/5)–[#7](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/7) |
-| **3. FastAPI** | REST, Pydantic, CRUD API project | [#8](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/8)–[#10](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/10) |
-| **4. Data Science** | NumPy, pandas, viz, sklearn, EDA | [#11](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/11)–[#13](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/13) |
-| **5. Capstone Projects** | Full-stack, data API, ML, dashboard | [#14](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/14)–[#17](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/17) |
+| Module | Topics | Doc |
+|--------|--------|-----|
+| **0. Setup & Git** | Python install, venv, Git, GitHub | [Setup](./docs/00-setup.md) |
+| **1. Python Fundamentals** | Syntax, types, operators, control flow | [Python basics](./docs/01-python-basics.md) |
+| **2. Python Collections & Functions** | Lists, dicts, sets, functions, comprehensions | [Python basics](./docs/01-python-basics.md) |
+| **3. Python OOP & Modules** | Classes, inheritance, modules, packages | [Python basics](./docs/01-python-basics.md) |
+| **4. Python Advanced** | Errors, files, iterators, generators, decorators | [Python advanced](./docs/04-python-advanced.md) |
+| **5. SQL Basics** | SELECT, JOINs, aggregations, subqueries | [SQL basics](./docs/05-sql-basics.md) |
+| **6. Flask Web Development** | HTTP, Jinja2, forms, SQLite project | [Flask](./docs/02-flask.md) |
+| **7. FastAPI & REST APIs** | REST, Pydantic, CRUD API project | [FastAPI](./docs/03-fastapi.md) |
+| **8. Data Science** | NumPy, pandas, viz, sklearn, EDA | [Data science](./docs/04-data-science.md) |
+| **9. Capstone Projects** | Full-stack, data API, ML, dashboard | [Projects](./docs/projects.md) |
 
-**Mentors:** Issues are grouped by **Milestone**. In your GitHub Project, create view **Modules & Tasks** → Layout **Table** → Group by **Milestone**. [Step-by-step guide →](./docs/GITHUB-PROJECT.md#fix-your-board-in-30-seconds)
+**Project board:** **[All Modules — one board](https://github.com/users/Ninad-Badekar/projects/4/views/25)** with all topics in a single view, grouped by module (Setup → Python Fundamentals → Collections → OOP → Advanced → SQL → Flask → FastAPI → Data Science → Capstone).
 
 ---
 
@@ -38,14 +42,18 @@ Use this repo as your **single reference** while you learn. Work through each mo
 
 ## Roadmap overview
 
-| Phase | Topic | Duration | Doc |
+| Module | Topic | Duration | Doc |
 |-------|-------|----------|-----|
 | 0 | Setup & Git basics | 1 week | [Setup guide](./docs/00-setup.md) |
-| 1 | Python fundamentals | 2–3 weeks | [Python basics](./docs/01-python-basics.md) |
-| 2 | Flask web development | 2 weeks | [Flask](./docs/02-flask.md) |
-| 3 | FastAPI & REST APIs | 2 weeks | [FastAPI](./docs/03-fastapi.md) |
-| 4 | Data science with Python | 3–4 weeks | [Data science](./docs/04-data-science.md) |
-| 5 | Capstone projects | 2 weeks | [Projects](./docs/projects.md) |
+| 1 | Python fundamentals | 1 week | [Python basics](./docs/01-python-basics.md) |
+| 2 | Python collections & functions | 1 week | [Python basics](./docs/01-python-basics.md) |
+| 3 | Python OOP & modules | 1 week | [Python basics](./docs/01-python-basics.md) |
+| 4 | Python advanced | 1 week | [Python advanced](./docs/04-python-advanced.md) |
+| 5 | SQL basics | 1–2 weeks | [SQL basics](./docs/05-sql-basics.md) |
+| 6 | Flask web development | 2 weeks | [Flask](./docs/02-flask.md) |
+| 7 | FastAPI & REST APIs | 2 weeks | [FastAPI](./docs/03-fastapi.md) |
+| 8 | Data science with Python | 3–4 weeks | [Data science](./docs/04-data-science.md) |
+| 9 | Capstone projects | 2 weeks | [Projects](./docs/projects.md) |
 
 ---
 
@@ -53,24 +61,45 @@ Use this repo as your **single reference** while you learn. Work through each mo
 
 Copy this into your notes or a personal fork and check items off as you complete them.
 
-### Phase 0 — Setup
+### Module 0 — Setup
 - [ ] Python 3.11+ installed
 - [ ] Virtual environments (`venv`) understood
 - [ ] VS Code / Cursor configured for Python
 - [ ] Git & GitHub account set up
 - [ ] First repo cloned and pushed
 
-### Phase 1 — Python basics
+### Module 1 — Python fundamentals
 - [ ] Variables, types, operators
 - [ ] Control flow (if/else, loops)
-- [ ] Functions & scope
+- [ ] `range`, `enumerate`, `zip`
+- [ ] f-strings and string methods
+
+### Module 2 — Python collections & functions
 - [ ] Lists, dicts, sets, tuples
-- [ ] File I/O & exceptions
-- [ ] OOP (classes, inheritance)
+- [ ] List & dict comprehensions
+- [ ] Functions, arguments, scope
+- [ ] `*args` / `**kwargs`
+
+### Module 3 — Python OOP & modules
+- [ ] Classes, `__init__`, methods
+- [ ] Inheritance and `super()`
 - [ ] Modules & packages
 - [ ] **Project:** CLI todo app or number guessing game
 
-### Phase 2 — Flask
+### Module 4 — Python advanced
+- [ ] Errors, exceptions & file handling
+- [ ] Comprehensions, iterators & generators
+- [ ] Decorators & type hints
+- [ ] Virtual environments & `requirements.txt`
+
+### Module 5 — SQL basics
+- [ ] SELECT, WHERE, ORDER BY
+- [ ] Aggregations & GROUP BY
+- [ ] JOINs & table relationships
+- [ ] Subqueries, views & CTEs
+- [ ] **Project:** query a sample SQLite database
+
+### Module 6 — Flask
 - [ ] HTTP basics (GET, POST, status codes)
 - [ ] Routes, templates (Jinja2)
 - [ ] Forms & user input
@@ -78,7 +107,7 @@ Copy this into your notes or a personal fork and check items off as you complete
 - [ ] Blueprints & project structure
 - [ ] **Project:** Blog or expense tracker
 
-### Phase 3 — FastAPI
+### Module 7 — FastAPI
 - [ ] REST API design
 - [ ] Path/query parameters & request bodies
 - [ ] Pydantic models & validation
@@ -86,7 +115,7 @@ Copy this into your notes or a personal fork and check items off as you complete
 - [ ] Auto-generated docs (Swagger)
 - [ ] **Project:** Task API with CRUD endpoints
 
-### Phase 4 — Data science
+### Module 8 — Data science
 - [ ] NumPy arrays & operations
 - [ ] pandas DataFrames (read, filter, group)
 - [ ] Data cleaning & missing values
@@ -95,7 +124,7 @@ Copy this into your notes or a personal fork and check items off as you complete
 - [ ] Intro to scikit-learn (train/test split, simple model)
 - [ ] **Project:** EDA notebook on a public dataset
 
-### Phase 5 — Capstone
+### Module 9 — Capstone
 - [ ] Pick and complete one capstone from [Projects](./docs/projects.md)
 - [ ] README with setup instructions
 - [ ] Code pushed to GitHub with clean commits
@@ -131,17 +160,18 @@ See [docs/resources.md](./docs/resources.md) for books, docs, videos, and datase
 
 | Week | Focus |
 |------|-------|
-| 1 | Setup, Git, Python syntax |
-| 2 | Functions, collections, file I/O |
+| 1 | Setup, Git, Python fundamentals |
+| 2 | Collections & functions |
 | 3 | OOP, modules — **Basics project** |
-| 4 | HTTP, Flask routes & templates |
-| 5 | Flask forms, DB — **Flask project** |
-| 6 | REST concepts, FastAPI basics |
-| 7 | Pydantic, CRUD API — **FastAPI project** |
-| 8 | NumPy & pandas |
-| 9 | Visualization & data cleaning |
-| 10 | Jupyter + scikit-learn intro |
-| 11–12 | **Data science project** + capstone |
+| 4 | Python advanced (errors, generators, decorators) |
+| 5 | SQL basics (SELECT, JOINs, aggregations) — **SQL project** |
+| 6 | HTTP, Flask routes & templates |
+| 7 | Flask forms, DB — **Flask project** |
+| 8 | REST concepts, FastAPI + Pydantic — **FastAPI project** |
+| 9 | NumPy & pandas |
+| 10 | Visualization & data cleaning |
+| 11 | Jupyter + scikit-learn intro |
+| 12–13 | **Data science project** + capstone |
 
 ---
 
