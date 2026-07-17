@@ -3,7 +3,7 @@
 A structured learning path for Python interns — from fundamentals to web APIs and data science.
 
 > **Track progress on the Project board** (like [DE Training Program](https://github.com/users/vikas-yadav-neo/projects/1)):
-> **[Python Intern Training Program →](https://github.com/users/Ninad-Badekar/projects/4)** · **[All tasks → Issues](https://github.com/Ninad-Badekar/python-intern-roadmap/issues?q=is%3Aissue+label%3Aroadmap)**
+> **[Python Intern Training Program →](https://github.com/users/Ninad-Badekar/projects/6)** · **[All tasks → Issues](https://github.com/Ninad-Badekar/python-intern-roadmap/issues?q=is%3Aissue+label%3Aroadmap)**
 
 Use this repo as your **single reference** while you learn. Work through each module in order on the GitHub Project board, check off topics in each issue, and build the suggested projects to put skills into practice.
 
@@ -24,7 +24,7 @@ Use this repo as your **single reference** while you learn. Work through each mo
 | **8. Data Science** | NumPy, pandas, viz, sklearn, EDA | [Data science](./docs/04-data-science.md) |
 | **9. Capstone Projects** | Full-stack, data API, ML, dashboard | [Projects](./docs/projects.md) |
 
-**Project board:** **[All Modules — one board](https://github.com/users/Ninad-Badekar/projects/4/views/25)** with all topics in a single view, grouped by module (Setup → Python Fundamentals → Collections → OOP → Advanced → SQL → Flask → FastAPI → Data Science → Capstone).
+**Project board:** **[Modules & Tasks — one board](https://github.com/users/Ninad-Badekar/projects/6/views/2)** with all topics as columns (Setup → Python Fundamentals → Collections → OOP → Advanced → SQL → Flask → FastAPI → Data Science → Capstone).
 
 ---
 
