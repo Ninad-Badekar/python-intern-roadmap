@@ -1,10 +1,10 @@
-# Phase 2: Flask Web Development
+# Module 4: Flask Web Development
 
 **Goal:** Build server-rendered web applications with routes, templates, forms, and a database.
 
 **Duration:** 2 weeks
 
-**Prerequisites:** [Phase 1 — Python basics](./01-python-basics.md)
+**Prerequisites:** [Module 3 — SQL Basics](./05-sql-basics.md) (and Python modules)
 
 ---
 
@@ -141,7 +141,7 @@ pip freeze > requirements.txt
 
 ## Self-assessment
 
-Ready for Phase 3 when you can:
+Ready for Module 5 when you can:
 - [ ] Explain what happens when a user submits a form
 - [ ] Create a multi-page app with shared layout
 - [ ] Store and retrieve records from SQLite
@@ -151,4 +151,4 @@ Ready for Phase 3 when you can:
 
 ## Next step
 
-→ [Phase 3: FastAPI](./03-fastapi.md)
+→ [Module 5: FastAPI](./03-fastapi.md)

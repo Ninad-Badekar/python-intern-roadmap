@@ -1,4 +1,4 @@
-# Phase 0: Environment Setup
+# Module 0: Environment Setup
 
 Complete this phase before writing any Python code.
 
@@ -134,4 +134,4 @@ Expected output: `Hello, Intern!`
 
 ## Next step
 
-→ [Phase 1: Python Basics](./01-python-basics.md)
+→ [Module 1: Python Basics](./01-python-basics.md)

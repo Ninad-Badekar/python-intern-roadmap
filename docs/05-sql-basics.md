@@ -1,10 +1,10 @@
-# Module 5: SQL Basics
+# Module 3: SQL Basics
 
 **Goal:** Query and manipulate relational data — the foundation for backends and data work.
 
 **Duration:** 1–2 weeks
 
-**Prerequisites:** [Module 4 — Python Advanced](./04-python-advanced.md)
+**Prerequisites:** [Module 2 — Advanced Python](./04-python-advanced.md)
 
 > **Practice environment:** Use [SQLite](https://www.sqlite.org/) (built into Python via `sqlite3`), [DB Browser for SQLite](https://sqlitebrowser.org/), or an online playground like [SQLite Online](https://sqliteonline.com/).
 
@@ -123,7 +123,7 @@ Query a **sample SQLite database** (e.g. [Chinook](https://github.com/lerocha/ch
 
 ## Self-assessment
 
-Ready for Module 6 when you can:
+Ready for Module 4 when you can:
 - [ ] Write a query with `WHERE`, `GROUP BY`, and `ORDER BY`
 - [ ] Join two tables on a foreign key
 - [ ] Explain the difference between `INNER` and `LEFT JOIN`
@@ -133,4 +133,4 @@ Ready for Module 6 when you can:
 
 ## Next step
 
-→ [Module 6: Flask Web Development](./02-flask.md)
+→ [Module 4: Flask Web Development](./02-flask.md)

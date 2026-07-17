@@ -1,4 +1,4 @@
-# Phase 1: Python Fundamentals
+# Module 1: Python Basics
 
 **Goal:** Write clear Python programs using core language features.
 
@@ -115,7 +115,7 @@ todo-cli/
 
 ## Self-assessment
 
-You are ready for Phase 2 when you can:
+You are ready for Module 2 when you can:
 - [ ] Explain the difference between a list and a tuple
 - [ ] Write a class with at least two methods
 - [ ] Handle file-not-found with `try/except`
@@ -125,4 +125,6 @@ You are ready for Phase 2 when you can:
 
 ## Next step
 
-→ [Module 4: Python Advanced](./04-python-advanced.md)
+→ [Module 2: Advanced Python](./04-python-advanced.md)
+
+Also practice: [Interview & coding guide](./interview-and-coding.md#python-basics)

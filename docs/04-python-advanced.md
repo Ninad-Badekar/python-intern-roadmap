@@ -1,10 +1,10 @@
-# Module 4: Python Advanced
+# Module 2: Advanced Python
 
-**Goal:** Go beyond the basics — handle errors and files, write Pythonic iterators, and package your code properly.
+**Goal:** Go beyond the basics — handle errors and files, write Pythonic iterators, and package your code properly. Includes coding practice problems.
 
-**Duration:** ~1 week
+**Duration:** 1–2 weeks
 
-**Prerequisites:** [Modules 1–3 — Python basics](./01-python-basics.md)
+**Prerequisites:** [Module 1 — Python Basics](./01-python-basics.md)
 
 ---
 
@@ -96,7 +96,7 @@ Build a small **utility package** with:
 
 ## Self-assessment
 
-Ready for Module 5 when you can:
+Ready for Module 3 when you can:
 - [ ] Handle errors without crashing the program
 - [ ] Read/write CSV and JSON files
 - [ ] Explain the difference between a list and a generator
@@ -106,4 +106,6 @@ Ready for Module 5 when you can:
 
 ## Next step
 
-→ [Module 5: SQL Basics](./05-sql-basics.md)
+→ [Module 3: SQL Basics](./05-sql-basics.md)
+
+Also practice: [Interview & coding guide](./interview-and-coding.md#advanced-python)

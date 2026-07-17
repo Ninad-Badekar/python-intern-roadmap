@@ -1,37 +1,29 @@
 # GitHub Project Board
 
-**Clean board (use this):** https://github.com/users/Ninad-Badekar/projects/6/views/2
-
-The old cluttered project (#4) is **closed** and hidden from your open projects list.
+**Board:** https://github.com/users/Ninad-Badekar/projects/6/views/2
 
 ---
 
-## How it works
+## Columns (modules)
 
-One board with **10 module columns** (no Todo / In Progress / Done):
+| Column | Contents |
+|--------|----------|
+| 0. Setup & Git | Setup tasks + interview Qs |
+| 1. Python Basics | Fundamentals + coding practice + interview Qs |
+| 2. Advanced Python | Advanced topics + coding practice + interview Qs |
+| 3. SQL Basics | SQL tasks + interview Qs |
+| 4. Flask Web Development | Flask tasks + interview Qs |
+| 5. FastAPI & REST APIs | FastAPI tasks + interview Qs |
+| 6. Data Science | Stats → ML path + interview Qs |
+| 7. Capstone Projects | Portfolio projects |
 
-| Column | Tasks |
-|--------|-------|
-| 0. Setup & Git | Environment setup |
-| 1. Python Fundamentals | Syntax, types, control flow |
-| 2. Python Collections & Functions | Lists, dicts, functions |
-| 3. Python OOP & Modules | Classes, inheritance |
-| 4. Python Advanced | Errors, generators, decorators |
-| 5. SQL Basics | SELECT, JOINs, aggregations |
-| 6. Flask Web Development | HTTP, templates, forms |
-| 7. FastAPI & REST APIs | REST, Pydantic, CRUD |
-| 8. Data Science | NumPy, pandas, sklearn |
-| 9. Capstone Projects | Final projects |
+Interview & coding reference: [interview-and-coding.md](./interview-and-coding.md)
 
 ---
 
-## Optional: hide leftover "View 1" tab
+## Optional cleanup
 
-GitHub always creates a default **View 1** tab that can't be deleted via API. To hide it:
-
-1. Open the project
-2. Click **⋯** on the **View 1** tab → **Delete view**
-3. Keep **Modules & Tasks** (and optionally **All Modules**)
+If a leftover **View 1** tab exists: ⋯ → **Delete view**. Keep **Modules & Tasks**.
 
 ---
 
