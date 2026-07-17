@@ -1,6 +1,42 @@
 # GitHub Project Board Setup
 
-This roadmap is designed to work like the [DE Training Program](https://github.com/users/vikas-yadav-neo/projects/1) — a **GitHub Project** with modules and trackable tasks.
+This roadmap is designed to work like the [DE Training Program](https://github.com/users/vikas-yadav-neo/projects/1) — **grouped by module sections**, not one flat Todo column.
+
+---
+
+## Fix your board in 30 seconds
+
+If all 17 tasks are piled in **Todo**, do this:
+
+1. Open your project board
+2. Click the **View** dropdown (top left, next to "Board")
+3. Click **+ New view** → name it **`Modules & Tasks`**
+4. Click **Layout** (top right) → choose **Table**
+5. Click **Group by** → select **Milestone**
+6. Rename the project: click the title **"@Ninad-Badekar's untitled project"** → rename to **`Python Intern Training Program`**
+
+You should now see **6 sections**:
+
+| Section | Tasks |
+|---------|-------|
+| **0. Setup & Git** | #1 |
+| **1. Python Basics** | #2, #3, #4 |
+| **2. Flask Web Development** | #5, #6, #7 |
+| **3. FastAPI & REST APIs** | #8, #9, #10 |
+| **4. Data Science** | #11, #12, #13 |
+| **5. Capstone Projects** | #14–#17 |
+
+> Milestones are already assigned to all issues. Refresh the project page if sections don't appear immediately.
+
+### Optional: add a status board
+
+Keep **Modules & Tasks** for learning order, and add a second view:
+
+1. **+ New view** → name **`Progress`**
+2. Layout: **Board**
+3. Group by: **Status** (Todo / In Progress / Done)
+
+Interns use **Modules & Tasks** to see what to learn next, and **Progress** to track completion.
 
 ---
 
@@ -8,82 +44,50 @@ This roadmap is designed to work like the [DE Training Program](https://github.c
 
 | Resource | URL |
 |----------|-----|
-| **All roadmap tasks (Issues)** | [Issues tab](https://github.com/Ninad-Badekar/python-intern-roadmap/issues?q=is%3Aissue+label%3Aroadmap) |
-| **Project board** | [Python Intern Training Program](https://github.com/users/Ninad-Badekar/projects) *(create via script below)* |
+| **All roadmap tasks** | [Issues](https://github.com/Ninad-Badekar/python-intern-roadmap/issues?q=is%3Aissue+label%3Aroadmap) |
+| **By milestone** | [Issues by module](https://github.com/Ninad-Badekar/python-intern-roadmap/milestones) |
 | **Docs** | [docs/](./docs/) |
 
 ---
 
-## Project structure (matches DE Training Program)
+## Module structure
 
-The board uses these **modules** as group headers:
-
-| Module | Tasks |
-|--------|-------|
-| **0. Setup & Git** | Environment setup, venv, Git basics |
-| **1. Python Basics** | Syntax, functions, OOP, CLI project |
-| **2. Flask** | HTTP, templates, forms, SQLite project |
-| **3. FastAPI** | REST, Pydantic, CRUD API project |
-| **4. Data Science** | NumPy, pandas, viz, sklearn, EDA project |
-| **5. Capstone Projects** | Full-stack, data API, ML API, dashboard |
-
-Each task is a **GitHub Issue** with a checklist. Interns move cards on the project board as they progress.
+| Module | Milestone | Issues |
+|--------|-----------|--------|
+| 0. Setup & Git | `0. Setup & Git` | [#1](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/1) |
+| 1. Python Basics | `1. Python Basics` | [#2–#4](https://github.com/Ninad-Badekar/python-intern-roadmap/issues?q=milestone%3A%221.+Python+Basics%22) |
+| 2. Flask | `2. Flask Web Development` | [#5–#7](https://github.com/Ninad-Badekar/python-intern-roadmap/issues?q=milestone%3A%222.+Flask+Web+Development%22) |
+| 3. FastAPI | `3. FastAPI & REST APIs` | [#8–#10](https://github.com/Ninad-Badekar/python-intern-roadmap/issues?q=milestone%3A%223.+FastAPI+%26+REST+APIs%22) |
+| 4. Data Science | `4. Data Science` | [#11–#13](https://github.com/Ninad-Badekar/python-intern-roadmap/issues?q=milestone%3A%224.+Data+Science%22) |
+| 5. Capstone | `5. Capstone Projects` | [#14–#17](https://github.com/Ninad-Badekar/python-intern-roadmap/issues?q=milestone%3A%225.+Capstone+Projects%22) |
 
 ---
 
-## One-time setup (maintainers)
-
-### Step 1 — Grant GitHub Projects permission
+## Scripts (maintainers)
 
 ```bash
-gh auth refresh -h github.com -s project,read:project
-```
+# Assign milestones to issues (already run)
+bash scripts/assign-milestones.sh
 
-Complete the browser login when prompted.
-
-### Step 2 — Create issues (already done if you see 17 roadmap issues)
-
-```bash
+# Create issues from scratch
 bash scripts/create-issues.sh
-```
 
-### Step 3 — Create the project board
-
-```bash
+# Full project setup with Module field (needs gh project scope)
+gh auth refresh -h github.com -s project,read:project
 bash scripts/setup-github-project.sh
 ```
-
-This creates **Python Intern Training Program**, links it to this repo, adds all roadmap issues, and sets the **Module** field on each card.
-
-### Step 4 — Configure views in GitHub UI
-
-After the script runs, open the project and add views like the DE Training Program:
-
-1. **Modules & Tasks** — Table or Board layout, **group by Module**
-2. **Roadmap** — Roadmap layout, group by Module or assign date ranges
-3. **By status** — Board layout, columns: Todo / In Progress / Done
-
-Pin the project to your profile: **Your profile → Projects → Pin**.
 
 ---
 
 ## For interns
 
-1. Open the [Project board](https://github.com/users/Ninad-Badekar/projects) (link from your mentor).
-2. Find your assigned module section.
-3. Click a task card → read the linked doc → check off items in the issue.
-4. Move the card to **In Progress**, then **Done** when complete.
-5. Build the phase project before moving to the next module.
+1. Open the project → switch to **Modules & Tasks** view
+2. Start with section **0. Setup & Git**
+3. Click each task → complete the checklist in the issue
+4. Move cards to **In Progress** / **Done** on the Progress view when your mentor asks you to track status
 
 ---
 
-## Manual setup (without script)
+## Back to roadmap
 
-If you prefer the GitHub UI:
-
-1. Go to your profile → **Projects** → **New project** → **Board**
-2. Name it **Python Intern Training Program**
-3. Link repository: `Ninad-Badekar/python-intern-roadmap`
-4. Add field **Module** (Single select) with the 6 module names above
-5. Add all [roadmap issues](https://github.com/Ninad-Badekar/python-intern-roadmap/issues?q=label%3Aroadmap) to the project
-6. Create view **Modules & Tasks** → Group by **Module**
+→ [Main README](../README.md)

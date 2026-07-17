@@ -20,7 +20,7 @@ Use this repo as your **single reference** while you learn. Work through each mo
 | **4. Data Science** | NumPy, pandas, viz, sklearn, EDA | [#11](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/11)–[#13](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/13) |
 | **5. Capstone Projects** | Full-stack, data API, ML, dashboard | [#14](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/14)–[#17](https://github.com/Ninad-Badekar/python-intern-roadmap/issues/17) |
 
-**Mentors:** Run `bash scripts/setup-github-project.sh` once to create the kanban board — see [GitHub Project setup](./docs/GITHUB-PROJECT.md).
+**Mentors:** Issues are grouped by **Milestone**. In your GitHub Project, create view **Modules & Tasks** → Layout **Table** → Group by **Milestone**. [Step-by-step guide →](./docs/GITHUB-PROJECT.md#fix-your-board-in-30-seconds)
 
 ---
 
