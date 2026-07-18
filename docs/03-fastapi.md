@@ -1,10 +1,10 @@
-# Module 5: FastAPI & REST APIs
+# Module 6: FastAPI & REST APIs
 
 **Goal:** Design and build JSON REST APIs with automatic validation and interactive documentation.
 
 **Duration:** 2 weeks
 
-**Prerequisites:** [Module 4 — Flask](./02-flask.md) (HTTP concepts)
+**Prerequisites:** [Module 5 — Flask](./02-flask.md) (HTTP concepts)
 
 ---
 
@@ -159,7 +159,7 @@ def test_create_task():
 
 ## Self-assessment
 
-Ready for Module 6 when you can:
+Ready for Module 7 when you can:
 - [ ] Design RESTful URLs for a resource
 - [ ] Validate input with Pydantic and return clear errors
 - [ ] Demo your API using the Swagger UI
@@ -169,4 +169,4 @@ Ready for Module 6 when you can:
 
 ## Next step
 
-→ [Module 6: Data Science](./04-data-science.md)
+→ [Module 7: Machine Learning Basics](./04-data-science.md)

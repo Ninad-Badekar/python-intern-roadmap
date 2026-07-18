@@ -1,10 +1,10 @@
-# Module 8: Gen AI
+# Module 9: Gen AI
 
 **Goal:** Work with LLMs practically — prompting, embeddings, and RAG — and know when to use fine-tuning.
 
 **Duration:** 2–3 weeks
 
-**Prerequisites:** [Module 7 — Deep Learning](./07-deep-learning.md) (helpful but not mandatory for prompting/RAG)
+**Prerequisites:** [Module 8 — Deep Learning](./07-deep-learning.md) (helpful but not mandatory for prompting/RAG)
 
 ---
 
@@ -56,4 +56,4 @@ See [Interview guide — Gen AI](./interview-and-coding.md#gen-ai).
 
 ## Next step
 
-→ [Module 9: Agentic AI](./09-agentic-ai.md)
+→ [Module 10: Agentic AI](./09-agentic-ai.md)

@@ -1,4 +1,4 @@
-# Module 6: Machine Learning Basics
+# Module 7: Machine Learning Basics
 
 **Goal:** Build a solid intern-ready foundation — from statistics and probability through EDA, visualization, and classical machine learning.
 
@@ -198,4 +198,4 @@ You're ready for capstones when you can:
 
 ## Next step
 
-→ [Module 7: Deep Learning](./07-deep-learning.md)
+→ [Module 8: Deep Learning](./07-deep-learning.md)

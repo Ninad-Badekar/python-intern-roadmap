@@ -123,7 +123,7 @@ Query a **sample SQLite database** (e.g. [Chinook](https://github.com/lerocha/ch
 
 ## Self-assessment
 
-Ready for Module 4 when you can:
+Ready for Module 4 (Cloud Basics) when you can:
 - [ ] Write a query with `WHERE`, `GROUP BY`, and `ORDER BY`
 - [ ] Join two tables on a foreign key
 - [ ] Explain the difference between `INNER` and `LEFT JOIN`
@@ -133,4 +133,4 @@ Ready for Module 4 when you can:
 
 ## Next step
 
-→ [Module 4: Flask Web Development](./02-flask.md)
+→ [Module 4: Cloud Basics](./10-cloud-basics.md)

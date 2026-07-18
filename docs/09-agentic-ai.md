@@ -1,10 +1,10 @@
-# Module 9: Agentic AI
+# Module 10: Agentic AI
 
 **Goal:** Build simple AI agents that use tools, plan multi-step work, and operate with basic guardrails.
 
 **Duration:** 2 weeks
 
-**Prerequisites:** [Module 8 — Gen AI](./08-gen-ai.md)
+**Prerequisites:** [Module 9 — Gen AI](./08-gen-ai.md)
 
 ---
 
@@ -50,4 +50,4 @@ See [Interview guide — Agentic AI](./interview-and-coding.md#agentic-ai).
 
 ## Next step
 
-→ [Module 10: Cloud Basics](./10-cloud-basics.md)
+→ [Module 11: Capstone Projects](./projects.md)

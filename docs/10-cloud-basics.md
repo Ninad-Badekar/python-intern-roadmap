@@ -1,10 +1,10 @@
-# Module 10: Cloud Basics
+# Module 4: Cloud Basics
 
 **Goal:** Understand core cloud concepts and deploy a simple Python app (and store data/models) on one cloud provider.
 
 **Duration:** 1–2 weeks
 
-**Prerequisites:** Flask or FastAPI modules; Docker awareness helps
+**Prerequisites:** [Module 3 — SQL Basics](./05-sql-basics.md); Python basics. Flask/FastAPI help for the deploy project later.
 
 > Pick **one** cloud for hands-on: **AWS**, **GCP**, or **Azure**. Concepts transfer across providers.
 
@@ -51,4 +51,4 @@ See [Interview guide — Cloud Basics](./interview-and-coding.md#cloud-basics).
 
 ## Next step
 
-→ [Module 11: Capstone Projects](./projects.md)
+→ [Module 5: Flask Web Development](./02-flask.md)

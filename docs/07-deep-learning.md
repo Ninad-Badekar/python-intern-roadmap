@@ -1,10 +1,10 @@
-# Module 7: Deep Learning
+# Module 8: Deep Learning
 
 **Goal:** Understand neural networks and common architectures at an intern level, and train a simple model in PyTorch or Keras.
 
 **Duration:** 2–3 weeks
 
-**Prerequisites:** [Module 6 — Machine Learning Basics](./04-data-science.md)
+**Prerequisites:** [Module 7 — Machine Learning Basics](./04-data-science.md)
 
 ---
 
@@ -49,4 +49,4 @@ See [Interview guide — Deep Learning](./interview-and-coding.md#deep-learning)
 
 ## Next step
 
-→ [Module 8: Gen AI](./08-gen-ai.md)
+→ [Module 9: Gen AI](./08-gen-ai.md)
