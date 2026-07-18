@@ -10,7 +10,6 @@ A structured learning path for Python interns — from fundamentals to SQL, clou
 
 | Module | Topics | Doc |
 |--------|--------|-----|
-| **0. Setup & Git** | Python install, venv, Git, GitHub | [Setup](./docs/00-setup.md) |
 | **1. Python Basics** | Syntax, collections, functions, OOP + coding | [Python basics](./docs/01-python-basics.md) |
 | **2. Advanced Python** | Errors, generators, decorators + coding | [Advanced Python](./docs/04-python-advanced.md) |
 | **3. SQL Basics** | SELECT, JOINs, aggregations, CTEs | [SQL basics](./docs/05-sql-basics.md) |
@@ -31,13 +30,13 @@ A structured learning path for Python interns — from fundamentals to SQL, clou
 
 ## How to use this roadmap
 
-1. Open the project board and start at **0. Setup & Git**
+1. Open the project board and start at **1. Python Basics**
 2. Complete task cards + interview cards before moving on
 3. For Python, also finish the **Coding Practice** cards
 4. Build the suggested mini-project in each major module
 5. Push practice code to your own GitHub repos
 
-> **Estimated timeline:** 16–22 weeks at ~10–15 hours/week
+> **Estimated timeline:** 15–21 weeks at ~10–15 hours/week
 
 ---
 
@@ -45,7 +44,6 @@ A structured learning path for Python interns — from fundamentals to SQL, clou
 
 | Module | Duration | Focus |
 |--------|----------|-------|
-| 0 Setup & Git | 1 week | Tooling |
 | 1 Python Basics | 2–3 weeks | Language + coding drills |
 | 2 Advanced Python | 1–2 weeks | Pythonic patterns + coding drills |
 | 3 SQL Basics | 1–2 weeks | Relational querying |
@@ -61,10 +59,6 @@ A structured learning path for Python interns — from fundamentals to SQL, clou
 ---
 
 ## Progress tracker
-
-### 0 — Setup
-- [ ] Python, venv, editor, Git/GitHub
-- [ ] Interview questions
 
 ### 1 — Python Basics
 - [ ] Syntax, collections, OOP

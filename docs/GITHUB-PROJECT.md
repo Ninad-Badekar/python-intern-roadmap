@@ -8,7 +8,6 @@
 
 | Column | Contents |
 |--------|----------|
-| 0. Setup & Git | Setup + interview Qs |
 | 1. Python Basics | Fundamentals + coding + interview Qs |
 | 2. Advanced Python | Advanced topics + coding + interview Qs |
 | 3. SQL Basics | SQL + interview Qs |

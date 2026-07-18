@@ -4,16 +4,6 @@ Use this page alongside the project board cards. Try answering out loud before p
 
 ---
 
-## Setup & Git
-
-1. **What is a virtual environment?** — Isolated Python packages per project so dependencies don't conflict.
-2. **`git pull` vs `git fetch`?** — `fetch` downloads remote changes; `pull` = fetch + merge.
-3. **What is a commit?** — A snapshot of staged changes with a message and unique hash.
-4. **Why use branches?** — Work on features without breaking `main`.
-5. **What should not be committed?** — Secrets (`.env`), `venv/`, large data, `__pycache__/`.
-
----
-
 ## Python Basics
 
 ### Interview
