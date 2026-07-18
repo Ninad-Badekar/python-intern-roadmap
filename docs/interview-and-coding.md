@@ -103,7 +103,7 @@ Use this page alongside the project board cards. Try answering out loud before p
 
 ---
 
-## Data Science
+## Machine Learning Basics
 
 1. **Mean vs median** — Median is robust to outliers.
 2. **Std deviation** — Spread of values around the mean.
@@ -115,6 +115,56 @@ Use this page alongside the project board cards. Try answering out loud before p
 8. **Supervised vs unsupervised** — Labels vs no labels.
 9. **Missing values** — Drop, impute mean/median/mode, or model-based fill — document why.
 10. **Feature scaling** — Helps distance-based and gradient-based models.
+
+---
+
+## Deep Learning
+
+1. **Neural network** — Layers of neurons that learn weights from data.
+2. **Activation function** — Adds non-linearity (ReLU, sigmoid, softmax).
+3. **Backpropagation** — Algorithm to update weights using loss gradients.
+4. **CNN** — Specialized for spatial data like images.
+5. **Transfer learning** — Reuse a pretrained model for a new task.
+6. **Epoch / batch** — Epoch = full pass over data; batch = subset used per update.
+7. **Why GPUs?** — Parallel matrix math speeds training.
+
+---
+
+## Gen AI
+
+1. **LLM** — Large language model trained to predict next tokens.
+2. **Token / context window** — Pieces of text; max tokens the model can see at once.
+3. **Prompt engineering** — Crafting instructions to get better outputs.
+4. **RAG** — Retrieve relevant docs, then generate an answer grounded in them.
+5. **Embeddings** — Numeric vectors representing text meaning.
+6. **Temperature** — Higher = more random/creative; lower = more deterministic.
+7. **Hallucinations** — Confident but wrong answers; mitigate with RAG/citations/constraints.
+8. **Fine-tuning vs RAG** — Fine-tune for style/domain behavior; RAG for up-to-date/private knowledge.
+
+---
+
+## Agentic AI
+
+1. **AI agent** — LLM system that plans and uses tools to complete goals.
+2. **Tool / function calling** — Model chooses external functions (search, APIs, DB).
+3. **Agent vs chat** — Agents take multi-step actions; chat mainly responds.
+4. **ReAct** — Interleave reasoning and tool actions.
+5. **Memory** — Store state/context across steps.
+6. **Guardrails** — Limits on tools, validation, permissions, human approval.
+7. **Human-in-the-loop** — Require human confirmation for risky actions.
+
+---
+
+## Cloud Basics
+
+1. **Cloud computing** — On-demand compute/storage/network over the internet.
+2. **IaaS / PaaS / SaaS** — Infra / platform / software as a service.
+3. **Availability zone** — Isolated data center within a region.
+4. **Object storage** — Store files/objects (datasets, models, backups).
+5. **IAM** — Identity and access management (who can do what).
+6. **Managed database** — Cloud-operated DB with backups/patching handled for you.
+7. **Horizontal vs vertical scaling** — More machines vs bigger machine.
+8. **Docker** — Package app + dependencies as a portable container.
 
 ---
 

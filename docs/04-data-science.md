@@ -1,6 +1,6 @@
-# Module 6: Data Science for Interns
+# Module 6: Machine Learning Basics
 
-**Goal:** Build a solid intern-ready foundation — from statistics and probability through EDA, visualization, and introductory machine learning.
+**Goal:** Build a solid intern-ready foundation — from statistics and probability through EDA, visualization, and classical machine learning.
 
 **Duration:** 4–6 weeks
 
@@ -181,7 +181,7 @@ Dataset ideas: Titanic, Iris, California Housing, any Kaggle beginner set.
 
 ## Interview prep
 
-See [Interview & coding guide — Data Science](./interview-and-coding.md#data-science).
+See [Interview & coding guide — Machine Learning Basics](./interview-and-coding.md#machine-learning-basics).
 
 ---
 
@@ -198,4 +198,4 @@ You're ready for capstones when you can:
 
 ## Next step
 
-→ [Capstone Projects](./projects.md)
+→ [Module 7: Deep Learning](./07-deep-learning.md)
